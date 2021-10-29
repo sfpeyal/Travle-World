@@ -1,0 +1,18 @@
+/* booking style sheet */
+.booking-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    width: 70%;
+}
+
+.main{
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width:688px) {
+    .booking-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+}

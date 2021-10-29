@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dubai",
+        "picture": "https://i.pinimg.com/736x/02/91/c9/0291c9ad7328afa223e68e3159c3ad14.jpg",
+        "info": "we provide our best doctor to handle Surgery."
+    },
+    {
+        "id": 2,
+        "name": "Malaysia",
+        "picture": "https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2018/06/%5EEA7BDB7782B5941A8F97385B103D0F933817C7A2B3DBD20607%5Epimgpsh_fullsize_distr.png",
+        "info": "we always provide latest X-ray machine."
+    },
+    {
+        "id": 3,
+        "name": "Paris",
+        "picture": "https://cdn.pariscityvision.com/library/image/5144.jpg",
+        "info": "Thousands of covid test we do everydays."
+    },
+    {
+        "id": 4,
+        "name": "Greece",
+        "picture": "https://mustgo.com/wp-content/uploads/2018/04/shutterstock_719687668.jpg",
+        "info": "we always have numbers of free ICU bed for emergency."
+    },
+    {
+        "id": 5,
+        "name": "Bali",
+        "picture": "https://cdn-bnmpo.nitrocdn.com/SIcCiTopOjdJxTVWyYmXLjKkYLggcfbi/assets/static/optimized/rev-517bac6/wp-content/uploads/2019/09/Bali-Beautiful-tropical-island-with-crystal-ocean-aerial-view.-Gili-islands-1000x749.jpg",
+        "info": "Our ambulance can transfer patients in 30 mintes."
+    },
+    {
+        "id": 6,
+        "name": "Moscow",
+        "picture": "https://c.wallhere.com/photos/94/3f/2560x1440_px_architecture_Birds_Eye_View_building_Capital_Cathedral_city_Cityscape-528202.jpg!d",
+        "info": "we always have numbers of free bed for Brun Unit."
+    }
+]
