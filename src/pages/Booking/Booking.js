@@ -11,7 +11,7 @@ const Booking = () => {
     }, [])
     return (
         <div className="main">
-            <h1 className="py-5">here is our booking items: {books.length}</h1>
+            <h1 className="py-5">Here Is Our Booking Items</h1>
             <div className="d-flex justify-content-center">
                 <div className="booking-container">
 

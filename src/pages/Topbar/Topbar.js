@@ -25,13 +25,13 @@ const Topbar = () => {
 
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
-                            <Nav.Link as={Link} to="/helpline">Helpline</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                             {user.email ?
                                 <Button onClick={logOut} variant="danger">LogOut</Button> :
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>
                             }
                             <Navbar.Text>
-                                Signed in as: <a href="#login">{user?.displayName}</a>
+                                User: <a href="#login">{user?.displayName}</a>
                             </Navbar.Text>
 
 
