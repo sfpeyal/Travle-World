@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 import './BookingProcess.css'
 
 const BookingProcess = () => {
@@ -8,7 +9,7 @@ const BookingProcess = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        const url = `http://localhost:5000/books/${id}`;
+        const url = `https://shocking-pirate-31404.herokuapp.com/books/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setUser(data))
@@ -33,6 +34,7 @@ const BookingProcess = () => {
                     <Col></Col>
                 </Row>
             </Container>
+            <Link to={'/myorder'}><button type="button" className="btn btn-primary">Proceed To Booked</button></Link>
         </div>
     );
 };

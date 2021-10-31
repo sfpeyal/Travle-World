@@ -14,16 +14,8 @@ const Topbar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            {/* <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">About</Nav.Link>
-                            <Nav.Link href="#home">Tours</Nav.Link>
-                            <Nav.Link href="#link">Pages</Nav.Link>
-                            <Nav.Link href="#home">Blogs</Nav.Link>
-                            <Nav.Link href="#link">Contact</Nav.Link> */}
-
-
-
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/myorder">MyOrder</Nav.Link>
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                             {user.email ?
@@ -33,9 +25,6 @@ const Topbar = () => {
                             <Navbar.Text>
                                 User: <a href="#login">{user?.displayName}</a>
                             </Navbar.Text>
-
-
-
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

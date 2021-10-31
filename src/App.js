@@ -11,6 +11,7 @@ import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Error from './pages/Error/Error';
+import MyOrder from './pages/MyOrder/MyOrder';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
+            <PrivateRoute path="/myorder">
+              <MyOrder></MyOrder>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>
